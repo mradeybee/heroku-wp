@@ -13,7 +13,7 @@
     ],
     "require": {
         "ext-gd": "*",
-        "php": "7.*",
+        "php": "8.*",
         "wordpress/wordpress": "*",
         "automattic/batcache": "dev-master",
         "wpackagist-plugin/redis-cache": "~1",
