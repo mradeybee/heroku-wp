@@ -1,13 +1,13 @@
 {
-    "name": "xyu/heroku-wp",
+    "name": "mradeybee/heroku-wp",
     "description": "A template for installing and running WordPress on Heroku",
-    "homepage": "https://github.com/xyu/heroku-wp",
+    "homepage": "https://github.com/mradeybee/heroku-wp",
     "license": "MIT",
     "authors": [
         {
-            "name": "Xiao Yu",
-            "email": "me@xyu.io",
-            "homepage": "http://xyu.io",
+            "name": "Adebayo Adepoju",
+            "email": "mradeybee@gmail.com",
+            "homepage": "http://crestace.com",
             "role": "Developer"
         }
     ],
