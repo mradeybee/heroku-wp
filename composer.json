@@ -14,17 +14,13 @@
     "require": {
         "ext-gd": "*",
         "php": "7.*",
-
         "wordpress/wordpress": "*",
-
         "automattic/batcache": "dev-master",
         "wpackagist-plugin/redis-cache": "~1",
         "wpackagist-plugin/secure-db-connection": "~1",
-
         "humanmade/s3-uploads": "~2",
         "wpackagist-plugin/jetpack": "*",
-        "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1",
-
+        "wpackagist-plugin/wp-sendgrid-mailer": "dev-trunk",
         "predis/predis": "~1",
         "wp-cli/wp-cli": "^2"
     },
@@ -76,5 +72,10 @@
         "post-install-cmd": [
             "./support/app_slug_compile.sh"
         ]
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
     }
 }
